@@ -8,9 +8,9 @@ Built with Python, FastAPI, Pydantic, SQLAlchemy and Psycopg. PostgreSQL runs in
 
 ## How it fits together
 
-`api.py` handles HTTP requests, `task_manager.py` contains the task operations, `models_practice.py` maps tasks to database rows, and `database.py` sets up the engine.
+`api.py` handles HTTP requests, `task_manager.py` contains the task operations, `models.py` maps tasks to database rows, and `database.py` sets up the engine.
 
-The other practice scripts are kept to show the earlier learning steps. Some change database records when run; start the API with `api:app`.
+Earlier learning scripts live in `practice/`. Run them from the project root as modules, for example `python -m practice.class_practice`. The database exercises change records when run. Start the API with `api:app`.
 
 ## Run locally
 

@@ -1,7 +1,7 @@
 import pytest
 from database import engine
 from sqlalchemy import delete
-from models_practice import Task
+from models import Task
 
 if engine.url.database != "task_manager_test":
     raise pytest.UsageError(

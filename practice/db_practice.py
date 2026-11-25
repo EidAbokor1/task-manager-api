@@ -1,3 +1,5 @@
+"""Direct Psycopg exercise; running it inserts a database row."""
+
 import psycopg
 from getpass import getpass
 

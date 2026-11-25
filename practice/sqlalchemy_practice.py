@@ -1,7 +1,9 @@
+"""SQLAlchemy insert exercise; running it inserts a database row."""
+
 from getpass import getpass
 from sqlalchemy import URL, create_engine
 from sqlalchemy.orm import Session
-from models_practice import Task
+from models import Task
 
 password = getpass("Database password: ")
 

@@ -1,4 +1,6 @@
-from task_manager import create_task, list_tasks ,complete_task ,delete_task ,get_task
+"""Earlier task-operation demo; running it changes database records."""
+
+from task_manager import create_task, list_tasks, complete_task, delete_task, get_task
 
 first_task = create_task("Onboarding")
 second_task = create_task("Build an API")

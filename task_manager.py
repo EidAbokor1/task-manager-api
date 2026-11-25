@@ -2,7 +2,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from database import engine
-from models_practice import Task
+from models import Task
 
 def create_task(title: str):
     title = title.strip()

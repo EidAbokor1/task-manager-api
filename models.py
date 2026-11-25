@@ -1,3 +1,5 @@
+"""Database models used by the application and Alembic migrations."""
+
 from sqlalchemy import Identity, Text, false
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
